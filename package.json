@@ -1,0 +1,28 @@
+{
+  "name": "fun-nodejs-console-chat",
+  "version": "1.0.0",
+  "description": "Simple and fun console chat",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server/server",
+    "server:dev": "nodemon server/server",
+    "client": "node client/client"
+  },
+  "author": "wintpann",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "change-case": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.3",
+    "superagent": "^6.1.0"
+  }
+}
